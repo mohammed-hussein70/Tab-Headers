@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.tab-text {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  height: 250px;
+  background-color: #c2bebe;
+}
+.tab {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  height: 150px;
+  background-color: #c2bebe;
+}
+.tab-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 60px;
+  margin-top: auto;
+  button {
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    height: 60px;
+    background-color: #c2bebe;
+    cursor: pointer;
+  }
+}
+.hidden {
+  display: none;
+}
+
+/* style color */
+
+.London {
+  background-color: rgb(103, 61, 6);
+  color: white;
+  &:focus {
+    color: white;
+    background-color: rgb(103, 61, 6);
+  }
+}
+.Paris {
+  background-color: #346504;
+  color: white;
+  &:focus {
+    background-color: #346504;
+    color: white;
+  }
+}
+.Tokyo {
+  background-color: #034259;
+  color: white;
+  &:focus {
+    color: white;
+    background-color: #034259;
+  }
+}
