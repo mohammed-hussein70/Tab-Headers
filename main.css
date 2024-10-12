@@ -27,8 +27,11 @@
     border: none;
     font-weight: bold;
     height: 60px;
-    background-color: #c2bebe;
+    /* background-color: #c2bebe; */
     cursor: pointer;
+  }
+  .back {
+    background-color: #c2bebe;
   }
 }
 .hidden {
@@ -40,24 +43,24 @@
 .London {
   background-color: rgb(103, 61, 6);
   color: white;
-  &:focus {
+  /* &:focus {
     color: white;
     background-color: rgb(103, 61, 6);
-  }
+  } */
 }
 .Paris {
   background-color: #346504;
   color: white;
-  &:focus {
+  /* &:focus {
     background-color: #346504;
     color: white;
-  }
+  } */
 }
 .Tokyo {
   background-color: #034259;
   color: white;
-  &:focus {
+  /* &:focus {
     color: white;
     background-color: #034259;
-  }
+  } */
 }
